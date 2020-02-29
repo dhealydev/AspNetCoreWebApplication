@@ -16,6 +16,7 @@ namespace AspNetCoreWebApplication.Controllers
 		public HomeController(ILogger<HomeController> logger)
 		{
 			_logger = logger;
+			//This is just a comment but that is not all it is.  I am testing the build on push stuff in github
 		}
 
 		public IActionResult Index()
